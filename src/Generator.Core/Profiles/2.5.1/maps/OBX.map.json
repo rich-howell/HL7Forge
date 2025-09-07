@@ -1,0 +1,10 @@
+{
+  "segment": "OBX",
+  "overrides": {
+    "1": "1",
+    "2": "TX",
+    "3": "ZTXT^Free text^99DUM",
+    "5": "Result for ${padleft:6:seq}",
+    "11": "F"
+  }
+}

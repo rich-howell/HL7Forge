@@ -1,0 +1,31 @@
+{
+  "version": "2.5.1",
+  "trigger": "ORM^O01",
+  "order": [
+    "MSH",
+    "PID",
+    "PV1",
+    "ORC",
+    "OBR",
+    {
+      "segment": "ROL",
+      "repeat": "0-2"
+    },
+    {
+      "segment": "NTE",
+      "repeat": "0-2"
+    },
+    {
+      "segment": "PR1",
+      "repeat": "0-1"
+    },
+    {
+      "segment": "PRD",
+      "repeat": "0-1"
+    },
+    {
+      "segment": "RF1",
+      "repeat": "0-1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "segment": "SPM",
+  "overrides": {
+    "1": "1",
+    "2": "S${padleft:6:seq}",
+    "4": "BLD^Blood^HL70487",
+    "7": "${now:yyyyMMddHHmmss}",
+    "11": "INSTITUTE.TEST",
+    "17": "U"
+  }
+}

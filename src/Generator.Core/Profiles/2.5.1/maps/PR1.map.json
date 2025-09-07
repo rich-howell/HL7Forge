@@ -1,0 +1,10 @@
+{
+  "segment": "PR1",
+  "overrides": {
+    "1": "1",
+    "3": "Z9999^Test procedure^I10",
+    "6": "${now:yyyyMMdd}",
+    "7": "01",
+    "11": "N"
+  }
+}

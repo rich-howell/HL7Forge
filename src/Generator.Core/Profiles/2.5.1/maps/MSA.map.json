@@ -1,0 +1,7 @@
+{
+  "segment": "MSA",
+  "overrides": {
+    "1": "AA",
+    "2": "${padleft:8:seq}"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "segment": "ERR",
+  "overrides": {
+    "1": "",
+    "2": "0^^HL70533",
+    "4": "0^Message accepted^HL70357"
+  }
+}

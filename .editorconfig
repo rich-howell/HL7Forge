@@ -1,0 +1,102 @@
+# top-most EditorConfig file
+root = true
+
+[*.{cs,vb}]
+# Encoding & EOL
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Indentation
+indent_style = space
+indent_size = 4
+
+# C# code style
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = true
+
+# Newlines/braces
+csharp_new_line_before_open_brace = all
+csharp_new_line_between_query_expression_clauses = true
+
+# var preferences
+csharp_style_var_for_built_in_types = false:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_var_elsewhere = false:suggestion
+
+# using & qualification
+dotnet_style_qualification_for_field = false:suggestion
+dotnet_style_qualification_for_property = false:suggestion
+dotnet_style_qualification_for_method = false:suggestion
+dotnet_style_qualification_for_event = false:suggestion
+
+# expression-level preferences
+dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
+dotnet_style_prefer_conditional_expression_over_return = true:suggestion
+dotnet_style_coalesce_expression = true:suggestion
+dotnet_style_null_propagation = true:suggestion
+
+# language features
+csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
+csharp_style_inlined_variable_declaration = true:suggestion
+csharp_style_expression_bodied_methods = when_on_single_line:suggestion
+csharp_style_expression_bodied_properties = when_on_single_line:suggestion
+
+# Naming rules (PascalCase public, _camelCase private fields)
+dotnet_naming_rule.public_members_should_be_pascal.severity = warning
+dotnet_naming_rule.public_members_should_be_pascal.symbols = public_symbols
+dotnet_naming_rule.public_members_should_be_pascal.style = pascal_case
+
+dotnet_naming_symbols.public_symbols.applicable_accessibilities = public, protected, protected_internal
+dotnet_naming_symbols.public_symbols.applicable_kinds = property, method, event, field
+dotnet_naming_style.pascal_case.capitalization = pascal_case
+
+dotnet_naming_rule.private_fields_should_be_camel.severity = warning
+dotnet_naming_rule.private_fields_should_be_camel.symbols = private_fields
+dotnet_naming_rule.private_fields_should_be_camel.style = camel_case_underscore
+
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_style.camel_case_underscore.capitalization = camel_case
+dotnet_naming_style.camel_case_underscore.required_prefix = _
+
+# Analyzer severities
+dotnet_analyzer_diagnostic.severity = warning
+
+# Treat warnings as errors in *your* code, but not in designer/generated
+# (we’ll still escalate to errors in CI)
+warn_as_error = true
+
+# ----- Designer/Generated files: relax rules -----
+[*.Designer.cs]
+dotnet_analyzer_diagnostic.severity = silent
+warn_as_error = false
+
+[*.g.cs]
+dotnet_analyzer_diagnostic.severity = silent
+warn_as_error = false
+
+# Prefer System usings first and groups separated
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = true
+
+# Private fields: allow _camelCase (disable StyleCop rule SA1309)
+dotnet_diagnostic.SA1309.severity = none
+
+# Using inside/outside namespace: align with stylecop.json (outside)
+dotnet_diagnostic.SA1200.severity = none
+
+# Treat warnings as errors in *your* code, but not in designer/generated
+dotnet_analyzer_diagnostic.severity = warning
+warn_as_error = true
+
+[*.Designer.cs]
+dotnet_analyzer_diagnostic.severity = silent
+warn_as_error = false
+dotnet_diagnostic.SA*.severity = none
+
+[*.g.cs]
+dotnet_analyzer_diagnostic.severity = silent
+warn_as_error = false
+dotnet_diagnostic.SA*.severity = none

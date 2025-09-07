@@ -1,0 +1,8 @@
+{
+  "segment": "LOC",
+  "overrides": {
+    "1": "INSTITUTE-TEST",
+    "2": "Ward^01^${const.assigningAuthority}",
+    "3": "STN^Station One^99DUM"
+  }
+}

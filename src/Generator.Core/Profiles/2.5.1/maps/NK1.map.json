@@ -1,0 +1,9 @@
+{
+  "segment": "NK1",
+  "overrides": {
+    "1": "1",
+    "2": "DOE^JANE${padleft:4:seed}",
+    "3": "SPO^Spouse^HL70063",
+    "5": "07000 000000"
+  }
+}

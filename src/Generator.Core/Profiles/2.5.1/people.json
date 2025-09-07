@@ -1,0 +1,254 @@
+[
+  {
+    "mrn": "MRN100001",
+    "identifiers": [
+      {
+        "id": "MRN100001",
+        "assigningAuthority": "DUMMY.FAC",
+        "typeCode": "MR"
+      },
+      {
+        "id": "NHS0000001",
+        "assigningAuthority": "DUMMY.NHS",
+        "typeCode": "NH"
+      }
+    ],
+    "names": [
+      {
+        "family": "RIVET",
+        "given": "ROWAN",
+        "middle": "A.",
+        "suffix": "",
+        "use": "L"
+      },
+      {
+        "family": "RIVET",
+        "given": "RO",
+        "middle": "",
+        "suffix": "",
+        "use": "A"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "12 Example Road",
+        "line2": "",
+        "city": "Testford",
+        "state": "ZZ",
+        "postcode": "ZZ1 1ZZ",
+        "country": "GBR"
+      },
+      {
+        "line1": "Temp House",
+        "line2": "Flat B",
+        "city": "Mockham",
+        "state": "ZZ",
+        "postcode": "ZZ2 2ZZ",
+        "country": "GBR",
+        "use": "T"
+      }
+    ],
+    "telecoms": [
+      {
+        "value": "07000 000001",
+        "use": "H"
+      }
+    ],
+    "dob": "19900314",
+    "sex": "M",
+    "race": [
+      {
+        "code": "W",
+        "text": "White",
+        "system": "LCL"
+      }
+    ],
+    "ethnicity": [
+      {
+        "code": "N",
+        "text": "Not Hispanic or Latino",
+        "system": "LCL"
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "mrn": "MRN100002",
+    "identifiers": [
+      {
+        "id": "MRN100002",
+        "assigningAuthority": "DUMMY.FAC",
+        "typeCode": "MR"
+      }
+    ],
+    "names": [
+      {
+        "family": "FALCON",
+        "given": "EDEN",
+        "middle": "",
+        "suffix": "",
+        "use": "L"
+      },
+      {
+        "family": "FALCON",
+        "given": "EDEN",
+        "middle": "",
+        "suffix": "",
+        "use": "A"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "44 Mock Street",
+        "line2": "",
+        "city": "Faketon",
+        "state": "ZZ",
+        "postcode": "ZZ1 1ZZ",
+        "country": "GBR"
+      },
+      {
+        "line1": "Work Place",
+        "line2": "",
+        "city": "Testford",
+        "state": "ZZ",
+        "postcode": "ZZ3 3ZZ",
+        "country": "GBR",
+        "use": "B"
+      }
+    ],
+    "telecoms": [
+      {
+        "value": "07000 000002",
+        "use": "H"
+      }
+    ],
+    "dob": "19851202",
+    "sex": "F",
+    "race": [
+      {
+        "code": "B",
+        "text": "Black",
+        "system": "LCL"
+      }
+    ],
+    "ethnicity": [
+      {
+        "code": "U",
+        "text": "Unknown",
+        "system": "LCL"
+      }
+    ],
+    "language": "cy"
+  },
+  {
+    "mrn": "MRN100003",
+    "identifiers": [
+      {
+        "id": "MRN100003",
+        "assigningAuthority": "DUMMY.FAC",
+        "typeCode": "MR"
+      }
+    ],
+    "names": [
+      {
+        "family": "SPROCKET",
+        "given": "RIVER",
+        "middle": "C.",
+        "suffix": "",
+        "use": "L"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "7 Sample Ave",
+        "line2": "Apt 2",
+        "city": "Mockham",
+        "state": "ZZ",
+        "postcode": "ZZ1 1ZZ",
+        "country": "GBR"
+      }
+    ],
+    "telecoms": [
+      {
+        "value": "07000 000003",
+        "use": "H"
+      }
+    ],
+    "dob": "19770522",
+    "sex": "U"
+  },
+  {
+    "mrn": "MRN100004",
+    "identifiers": [
+      {
+        "id": "MRN100004",
+        "assigningAuthority": "DUMMY.FAC",
+        "typeCode": "MR"
+      }
+    ],
+    "names": [
+      {
+        "family": "WINTER",
+        "given": "BLAKE",
+        "middle": "",
+        "suffix": "",
+        "use": "L"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "2 Test Close",
+        "line2": "",
+        "city": "Mockham",
+        "state": "ZZ",
+        "postcode": "ZZ1 1ZZ",
+        "country": "GBR"
+      }
+    ],
+    "telecoms": [
+      {
+        "value": "07000 000004",
+        "use": "H"
+      }
+    ],
+    "dob": "20010401",
+    "sex": "M"
+  },
+  {
+    "mrn": "MRN100005",
+    "identifiers": [
+      {
+        "id": "MRN100005",
+        "assigningAuthority": "DUMMY.FAC",
+        "typeCode": "MR"
+      }
+    ],
+    "names": [
+      {
+        "family": "MAPLE",
+        "given": "ALBA",
+        "middle": "",
+        "suffix": "",
+        "use": "L"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "91 Placeholder St",
+        "line2": "",
+        "city": "Testford",
+        "state": "ZZ",
+        "postcode": "ZZ1 1ZZ",
+        "country": "GBR"
+      }
+    ],
+    "telecoms": [
+      {
+        "value": "07000 000005",
+        "use": "H"
+      }
+    ],
+    "dob": "19681230",
+    "sex": "F"
+  }
+]

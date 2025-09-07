@@ -1,0 +1,7 @@
+{
+  "sendingApplication": "DummyGen",
+  "sendingFacility": "DUMMY.FAC",
+  "receivingApplication": "Rhapsody",
+  "receivingFacility": "TEST",
+  "assigningAuthority": "DUMMY.FAC"
+}

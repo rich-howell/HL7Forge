@@ -1,0 +1,46 @@
+{
+  "version": "2.5.1",
+  "trigger": "ADT^A01",
+  "order": [
+    "MSH",
+    "EVN",
+    "PID",
+    {
+      "segment": "PD1",
+      "repeat": "0-1"
+    },
+    "PV1",
+    {
+      "segment": "PV2",
+      "repeat": "0-1"
+    },
+    {
+      "segment": "NK1",
+      "repeat": "0-3"
+    },
+    {
+      "segment": "AL1",
+      "repeat": "0-3"
+    },
+    {
+      "segment": "DG1",
+      "repeat": "0-5"
+    },
+    {
+      "segment": "PR1",
+      "repeat": "0-5"
+    },
+    {
+      "segment": "ROL",
+      "repeat": "0-5"
+    },
+    {
+      "segment": "LOC",
+      "repeat": "0-3"
+    },
+    {
+      "segment": "NTE",
+      "repeat": "0-5"
+    }
+  ]
+}

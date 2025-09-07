@@ -1,0 +1,9 @@
+{
+  "version": "2.5.1",
+  "trigger": "ACK^A01",
+  "order": [
+    "MSH",
+    "MSA",
+    "ERR"
+  ]
+}

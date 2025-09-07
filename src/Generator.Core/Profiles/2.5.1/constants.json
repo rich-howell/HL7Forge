@@ -1,0 +1,34 @@
+{
+  "assigningAuthority": "INSTITUTE.TEST",
+  "sendingApplication": "DummyGen",
+  "sendingFacility": "INSTITUTE.TEST",
+  "receivingApplication": "Rhapsody",
+  "receivingFacility": "TEST",
+  "locations": [
+    "ED",
+    "WARD1",
+    "OPD",
+    "ICU"
+  ],
+  "providers": [
+    {
+      "id": "PROV1001",
+      "name": "SMITH^ALEX"
+    },
+    {
+      "id": "PROV1002",
+      "name": "TAYLOR^SAM"
+    }
+  ],
+  "languageDefault": "en",
+  "raceDefault": {
+    "code": "U",
+    "text": "Unknown",
+    "system": "LCL"
+  },
+  "ethnicityDefault": {
+    "code": "U",
+    "text": "Unknown",
+    "system": "LCL"
+  }
+}

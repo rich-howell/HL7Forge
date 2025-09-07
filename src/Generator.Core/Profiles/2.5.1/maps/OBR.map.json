@@ -1,0 +1,14 @@
+{
+  "segment": "OBR",
+  "overrides": {
+    "1": "1",
+    "2": "PL${padleft:8:seed}",
+    "3": "FL${padleft:8:seq}",
+    "4": "TEST^Test battery^99DUM",
+    "7": "${now:yyyyMMddHHmmss}",
+    "13": "R",
+    "16": "999999^DRTEST^ALPHA",
+    "18": "INSTITUTE.TEST",
+    "24": "R"
+  }
+}

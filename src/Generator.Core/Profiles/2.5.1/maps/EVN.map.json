@@ -1,0 +1,7 @@
+{
+  "segment": "EVN",
+  "overrides": {
+    "1": "A01",
+    "2": "${now:yyyyMMddHHmmss}"
+  }
+}

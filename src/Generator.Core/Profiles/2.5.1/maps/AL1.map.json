@@ -1,0 +1,11 @@
+{
+  "segment": "AL1",
+  "overrides": {
+    "1": "1",
+    "2": "FA",
+    "3": "Z88.9^Allergy, unspecified^I10",
+    "4": "SV^Severe^HL70128",
+    "5": "RASH",
+    "6": "19700101"
+  }
+}

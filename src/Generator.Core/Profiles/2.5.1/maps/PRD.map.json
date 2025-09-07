@@ -1,0 +1,8 @@
+{
+  "segment": "PRD",
+  "overrides": {
+    "1": "RP^Referring Provider^HL70286",
+    "2": "999999^DRTEST^ALPHA",
+    "7": "07000 000000"
+  }
+}

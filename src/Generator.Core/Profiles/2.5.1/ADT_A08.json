@@ -1,0 +1,33 @@
+{
+  "version": "2.5.1",
+  "trigger": "ADT^A08",
+  "order": [
+    "MSH",
+    "EVN",
+    "PID",
+    {
+      "segment": "PD1",
+      "repeat": "0-1"
+    },
+    {
+      "segment": "NK1",
+      "repeat": "0-5"
+    },
+    {
+      "segment": "PV1",
+      "repeat": "0-1"
+    },
+    {
+      "segment": "PV2",
+      "repeat": "0-1"
+    },
+    {
+      "segment": "ROL",
+      "repeat": "0-5"
+    },
+    {
+      "segment": "NTE",
+      "repeat": "0-5"
+    }
+  ]
+}

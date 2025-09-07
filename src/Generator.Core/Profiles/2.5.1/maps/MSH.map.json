@@ -1,0 +1,16 @@
+{
+  "segment": "MSH",
+  "overrides": {
+    "1": "|",
+    "2": "^~\\&",
+    "3": "${const.sendingApplication}",
+    "4": "${const.sendingFacility}",
+    "5": "${const.receivingApplication}",
+    "6": "${const.receivingFacility}",
+    "7": "${now:yyyyMMddHHmmss}",
+    "9": "${profile.trigger}",
+    "10": "${padleft:8:seq}",
+    "11": "P",
+    "12": "${profile.version}"
+  }
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyTitle>HL7Forge</AssemblyTitle>
+    <AssemblyProduct>HL7Forge</AssemblyProduct>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+  <None Include="Profiles\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+  <None Include="people.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('people.json')" />
+  <None Include="constants.json" CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup>
+</Project>

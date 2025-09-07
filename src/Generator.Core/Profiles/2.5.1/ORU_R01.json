@@ -1,0 +1,35 @@
+{
+  "version": "2.5.1",
+  "trigger": "ORU^R01",
+  "order": [
+    "MSH",
+    "PID",
+    "PV1",
+    "ORC",
+    "OBR",
+    {
+      "segment": "OBX",
+      "repeat": "1-3"
+    },
+    {
+      "segment": "NTE",
+      "repeat": "0-2"
+    },
+    {
+      "segment": "SPM",
+      "repeat": "0-1"
+    },
+    {
+      "segment": "PRD",
+      "repeat": "0-2"
+    },
+    {
+      "segment": "ROL",
+      "repeat": "0-2"
+    },
+    {
+      "segment": "RF1",
+      "repeat": "0-1"
+    }
+  ]
+}

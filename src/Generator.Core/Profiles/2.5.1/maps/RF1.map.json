@@ -1,0 +1,10 @@
+{
+  "segment": "RF1",
+  "overrides": {
+    "1": "A",
+    "2": "R",
+    "3": "ZREF${padleft:6:seq}",
+    "6": "${now:yyyyMMdd}",
+    "8": "R"
+  }
+}

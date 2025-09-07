@@ -1,0 +1,11 @@
+{
+  "segment": "DG1",
+  "overrides": {
+    "1": "1",
+    "2": "I",
+    "3": "Z999^Unspecified condition^I10",
+    "5": "A",
+    "6": "${now:yyyyMMdd}",
+    "15": "W"
+  }
+}

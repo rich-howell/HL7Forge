@@ -1,0 +1,7 @@
+{
+  "segment": "NTE",
+  "overrides": {
+    "1": "1",
+    "3": "Note for ${profile.trigger} seq ${seq}"
+  }
+}

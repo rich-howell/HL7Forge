@@ -1,0 +1,6 @@
+{
+  "segment": "PID",
+  "overrides": {
+    "5": "${upper:person.names[0].family}^${person.names[0].given}"
+  }
+}

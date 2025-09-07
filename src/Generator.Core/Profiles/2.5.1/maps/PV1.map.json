@@ -1,0 +1,12 @@
+{
+  "segment": "PV1",
+  "overrides": {
+    "2": "O",
+    "3": "TESTWARD^01^${const.assigningAuthority}",
+    "7": "999999^DRTEST^ALPHA",
+    "10": "MED",
+    "18": "SELF^Self pay",
+    "19": "${padleft:8:seq}",
+    "44": "${now:yyyyMMddHHmmss}"
+  }
+}
