@@ -5,6 +5,9 @@ HL7Forge is a Windows-first .NET 8 toolkit to generate safe, synthetic HL7 v2 me
 ![HL7Forge Application Screenshot](images/app-screenshot.png)
 
 ## Projects
+
+This solution is made up of three projects. 
+
 - `HL7Forge.Core` — message composer, faker, profiles, maps.
 - `HL7Forge.Cli` — console: generate batches to disk.
 - `HL7Forge.Gui` — minimal WinForms UI.
