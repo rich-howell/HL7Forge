@@ -5,14 +5,14 @@ HL7Forge is a Windows-first .NET 8 toolkit to generate safe, synthetic HL7 v2 me
 ![HL7Forge Application Screenshot](images/app-screenshot.png)
 
 ## Projects
-- `Generator.Core` — message composer, faker, profiles, maps.
-- `Generator.Cli` — console: generate batches to disk.
-- `Generator.Gui` — minimal WinForms UI.
+- `HL7Forge.Core` — message composer, faker, profiles, maps.
+- `HL7Forge.Cli` — console: generate batches to disk.
+- `HL7Forge.Gui` — minimal WinForms UI.
 
 ## Quick Start (CLI)
 ```powershell
 # Requires .NET 8 SDK
-cd src/Generator.Cli
+cd src/HL7Forge.Cli
 dotnet build
 dotnet run -- ADT^A01 2.5.1 25 1234 .\out
 # trigger version count seed outDir
@@ -23,7 +23,7 @@ dotnet run -- ADT^A01 2.5.1 25 1234 .\out
 Download the latest release from the releases section of this repository or you can compile this application yourself. 
 
 ```powershell
-cd src/Generator.Gui
+cd src/HL7Forge.Gui
 dotnet build
 dotnet run
 ```
@@ -73,8 +73,3 @@ HL7Forge discovers triggers from `Profiles/<version>/*.json` (excluding `constan
 - RF1 
 - ROL 
 - SPM
-
-## Roadmap
-
-- Extend SegmentFactory for more profiles and segments.
-- Add error injection modes for testing edge cases.
