@@ -8,6 +8,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Generator.Core\Generator.Core.csproj" />
+    <ProjectReference Include="..\HL7Forge.Core\HL7Forge.Core.csproj" />
   </ItemGroup>
 </Project>

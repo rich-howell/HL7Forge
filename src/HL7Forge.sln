@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Forge.Gui", "HL7Forge.Gui\HL7Forge.Gui.csproj", "{11F521A5-0021-4D29-A578-3CE8CCBD384F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Forge.Core", "HL7Forge.Core\HL7Forge.Core.csproj", "{368012A3-B848-4361-8552-401AD4C1702E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Forge.Cli", "HL7Forge.Cli\HL7Forge.Cli.csproj", "{AC59F8EA-FE05-4114-A0AF-61FD4E668727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11F521A5-0021-4D29-A578-3CE8CCBD384F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F521A5-0021-4D29-A578-3CE8CCBD384F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F521A5-0021-4D29-A578-3CE8CCBD384F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F521A5-0021-4D29-A578-3CE8CCBD384F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368012A3-B848-4361-8552-401AD4C1702E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368012A3-B848-4361-8552-401AD4C1702E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368012A3-B848-4361-8552-401AD4C1702E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368012A3-B848-4361-8552-401AD4C1702E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC59F8EA-FE05-4114-A0AF-61FD4E668727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC59F8EA-FE05-4114-A0AF-61FD4E668727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC59F8EA-FE05-4114-A0AF-61FD4E668727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC59F8EA-FE05-4114-A0AF-61FD4E668727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
