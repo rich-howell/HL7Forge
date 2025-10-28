@@ -2,7 +2,7 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-using Generator.Core;
+using HL7Forge.Core;
 
 string trigger = args.Length > 0 ? args[0] : "ADT^A01";
 string version = args.Length > 1 ? args[1] : "2.5.1";
