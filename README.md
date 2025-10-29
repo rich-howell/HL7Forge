@@ -2,6 +2,10 @@
 
 HL7Forge is a Windows-first .NET 8 toolkit to generate safe, synthetic HL7 v2 messages for testing and integration work.
 
+[![GitHub Release](https://img.shields.io/github/v/release/rich-howell/HL7Forge?style=for-the-badge&labelColor=%23333&color=%23d40000&)](https://github.com/rich-howell/HL7Forge/releases)
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/rich-howell/HL7Forge/total?style=for-the-badge&labelColor=%23333&color=%23d40000)](https://github.com/rich-howell/HL7Forge/releases)
+[![GitHub Repo stars](https://img.shields.io/github/stars/rich-howell/HL7Forge?style=for-the-badge&labelColor=%23333&color=%23d40000)](https://github.com/rich-howell/HL7Forge/stargazers)
+
 ![HL7Forge Application Screenshot](images/app-screenshot.png)
 
 ## Projects
