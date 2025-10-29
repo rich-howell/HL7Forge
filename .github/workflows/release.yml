@@ -81,4 +81,4 @@ jobs:
 
             _Built automatically on merge to main._
           files: |
-            HL7Forge/bin/Release/HL7-Forge-v${{ steps.version.outputs.version }}.zip
+            src/HL7Forge.Gui/bin/Release/HL7-Forge-v${{ steps.version.outputs.version }}.zip
