@@ -7,8 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-  <None Include="Profiles\**\*.*" CopyToOutputDirectory="PreserveNewest" />
-  <None Include="people.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('people.json')" />
-  <None Include="constants.json" CopyToOutputDirectory="PreserveNewest" />
+  <Content Include="Profiles\**\*.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+  </Content>
 </ItemGroup>
 </Project>
