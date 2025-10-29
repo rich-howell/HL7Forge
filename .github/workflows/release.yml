@@ -1,4 +1,4 @@
-name: 🚀 Build & Release HL7 Message Server
+name: 🚀 Build & Release HL7 Forge
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
 
       - name: 🏗️ Publish self-contained executable
         run: |
-          cd HL7TCPListener
+          cd src/HL7Forge.Gui
           dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true
 
       - name: 🔢 Get version from version.txt
@@ -36,9 +36,9 @@ jobs:
 
       - name: 🗜️ Package published build
         run: |
-          $zipName = "HL7-Message-Server-v${{ steps.version.outputs.version }}.zip"
-          $publishDir = "HL7TCPListener/bin/Release/net8.0-windows/win-x64/publish"
-          Compress-Archive -Path "$publishDir/*" -DestinationPath "HL7TCPListener/bin/Release/$zipName"
+          $zipName = "HL7-Forge-v${{ steps.version.outputs.version }}.zip"
+          $publishDir = "src/HL7Forge/bin/Release/net8.0-windows/win-x64/publish"
+          Compress-Archive -Path "$publishDir/*" -DestinationPath "src/HL7Forge/bin/Release/$zipName"
           Write-Host "Created archive: $zipName"
 
       - name: 📝 Generate release notes
@@ -67,25 +67,18 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}
-          name: "HL7 Message Server v${{ steps.version.outputs.version }}"
+          name: "HL7 Forge v${{ steps.version.outputs.version }}"
           draft: false
           prerelease: false
           body: |
-            ## 🚀 HL7 Message Server v${{ steps.version.outputs.version }}
-
-            🧩 **Highlights**
-            - Real-time HL7 message listener and validator
-            - Automatic ACK generation and saving
-            - Tray integration with uptime tracking
-            - JSON-based configuration persistence
+            ## 🚀 HL7 Forge v${{ steps.version.outputs.version }}
 
             🧠 Built with .NET 8  
             💾 Self-contained executable — no install required  
-            💬 Includes `hl7_schema.json` in package
 
             ### Recent Changes
             ${{ steps.changelog.outputs.notes }}
 
             _Built automatically on merge to main._
           files: |
-            HL7TCPListener/bin/Release/HL7-Message-Server-v${{ steps.version.outputs.version }}.zip
+            HL7Forge/bin/Release/HL7-Forge-v${{ steps.version.outputs.version }}.zip
