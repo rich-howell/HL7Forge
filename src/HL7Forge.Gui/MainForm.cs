@@ -1,4 +1,3 @@
-using Microsoft.VisualBasic;
 using System.Reflection;
 using System.Text.Json;
 using HL7Forge.Core;
@@ -10,6 +9,8 @@ namespace HL7Forge.Gui
         public MainForm()
         {
             InitializeComponent();
+
+            Icon = Properties.Resources.hl7_forge_icon;
 
             seedToolTip.SetToolTip(numSeedA, "Random seed. Use same value to regenerate identical dummy data.");
 
@@ -23,7 +24,6 @@ namespace HL7Forge.Gui
             btnPreviewNames.Click += (s, e) => PreviewFilenames();
             btnOpenOut.Click += (s, e) => OpenOutputFolder();
 
-            // Populate versions and triggers dynamically
             LoadVersions();
             //ReloadTriggersForSelectedVersion();
 
