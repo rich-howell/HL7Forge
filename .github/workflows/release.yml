@@ -37,8 +37,8 @@ jobs:
       - name: 🗜️ Package published build
         run: |
           $zipName = "HL7-Forge-v${{ steps.version.outputs.version }}.zip"
-          $publishDir = "src/HL7Forge/bin/Release/net8.0-windows/win-x64/publish"
-          Compress-Archive -Path "$publishDir/*" -DestinationPath "src/HL7Forge/bin/Release/$zipName"
+          $publishDir = "src/HL7Forge.Gui/bin/Release/net8.0-windows/win-x64/publish"
+          Compress-Archive -Path "$publishDir/*" -DestinationPath "src/HL7Forge.Gui/bin/Release/$zipName"
           Write-Host "Created archive: $zipName"
 
       - name: 📝 Generate release notes
