@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0  # Needed so we can get all commit history for changelog
+          fetch-depth: 0
 
       - name: Dump GitHub context
         run: echo '${{ toJson(github.event) }}'
@@ -268,6 +268,6 @@ jobs:
             ### Recent Changes
             ${{ steps.changelog.outputs.notes }}
 
-            _Built automatically on merge to main._
+            _Built automatically from PR #${{ steps.label_check.outputs.merged_pr_number }} - "${{ steps.label_check.outputs.merged_pr_title }}."_
           files: |
             ${{ steps.package.outputs.zipPath }}
